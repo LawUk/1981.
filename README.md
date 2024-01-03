@@ -1,8 +1,8 @@
 <div align="center">
 
-  <h2 align="center">Shoppie - eCommerce Website</h2>
+  <h2 align="center">1981 - eCommerce Website</h2>
 
-  Shoppie is a fully responsive ecommerce website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  You
 
 </div>
 
