@@ -1,26 +1,27 @@
 'use strict';
 
-
-
 /**
- * Mobile navbar toggle
+ * Mobile Navbar Toggle
  */
 
 const navbar = document.querySelector("[data-navbar]");
 const navToggler = document.querySelector("[data-nav-toggler]");
 
-navToggler.addEventListener("click", function () {
+const toggleNavbar = () => {
   navbar.classList.toggle("active");
-});
+};
 
-
+navToggler.addEventListener("click", toggleNavbar);
 
 /**
- * Header active
+ * Header Active
  */
 
 const header = document.querySelector("[data-header]");
 
-window.addEventListener("scroll", function () {
-  header.classList[this.scrollY > 50 ? "add" : "remove"]("active");
-});
+const handleScroll = () => {
+  const shouldAddClass = window.scrollY > 50;
+  header.classList.toggle("active", shouldAddClass);
+};
+
+window.addEventListener("scroll", handleScroll);
