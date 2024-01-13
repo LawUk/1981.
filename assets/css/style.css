@@ -10,74 +10,75 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+:root {
+
   /**
    * COLORS
    */
 
-  /* Background colors */
+  /* backgorund color */
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-gainsboro: hsla(154, 10%, 86%, 1);
   --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
 
-  /* Text colors */
+  /* text color */
   --text-orange-crayola: hsla(18, 97%, 62%, 1);
   --text-blue-crayola: hsla(216, 98%, 52%, 1);
   --text-eerie-black: hsla(210, 11%, 15%, 1);
   --text-eerie-black-2: hsla(0, 0%, 7%, 1);
   --text-black: hsla(270, 100%, 0%, 1);
 
-  /* Border color */
+  /* border color */
   --border-eerie-black: hsla(0, 0%, 7%, 1);
 
   /**
    * TYPOGRAPHY
    */
 
-  /* Font families */
+  /* font family */
   --fontFamily-inter: 'Inter', sans-serif;
   --fontFamily-clashDisplay: 'ClashDisplay', cursive;
 
-  /* Font sizes */
-  --fontSize-1: 6.2rem;  /* Extra large text */
-  --fontSize-2: 4.4rem;  /* Large text */
-  --fontSize-3: 3.8rem;  /* Medium-large text */
-  --fontSize-4: 3.4rem;  /* Medium text */
-  --fontSize-5: 3rem;    /* Medium-small text */
-  --fontSize-6: 2.5rem;  /* Small text */
-  --fontSize-7: 2rem;    /* Extra small text */
-  --fontSize-8: 1.8rem;  /* Smallest text */
-  --fontSize-9: 1.4rem;  /* Placeholder text */
-  --fontSize-10: 2.4rem; /* Placeholder text */
-  --fontSize-11: 1.2rem; /* Placeholder text */
+  /* font size */
+  --fontSize-1: 6.2rem;
+  --fontSize-2: 4.4rem;
+  --fontSize-3: 3.8rem;
+  --fontSize-4: 3.4rem;
+  --fontSize-5: 3rem;
+  --fontSize-6: 2.5rem;
+  --fontSize-7: 2rem;
+  --fontSize-8: 1.8rem;
+  --fontSize-9: 1.4rem;
+  --fontSize-10: 2.4rem;
+  --fontSize-11: 1.2rem;
 
-  /* Font weight */
+  /* font weight */
   --weight-semiBold: 600;
 
   /**
    * BOX SHADOW
    */
 
-  /* Box shadows */
-  --shadow-1: 0 4px 6px hsla(256, 100%, 9%, 0.1); /* Light shadow */
-  --shadow-2: 4px 4px 0px hsla(0, 0%, 7%, 1);     /* Medium shadow */
-  --shadow-3: 2px 2px 0px hsla(0, 0%, 7%, 1);     /* Dark shadow */
+  --shadow-1: 0 4px 6px hsla(256, 100%, 9%, 0.1);
+  --shadow-2: 4px 4px 0px hsla(0, 0%, 7%, 1);
+  --shadow-3: 2px 2px 0px hsla(0, 0%, 7%, 1);
 
   /**
    * BORDER RADIUS
    */
 
-  /* Border radius */
-  --radius-circle: 50%; /* Circular border radius */
+  --radius-circle: 50%;
 
   /**
    * TRANSITION
    */
 
-  /* Transitions */
-  --transition-1: 250ms ease; /* Short transition */
-  --transition-2: 500ms ease; /* Long transition */
+  --transition-1: 250ms ease;
+  --transition-2: 500ms ease;
+
+}
 
 
 /*-----------------------------------*\
