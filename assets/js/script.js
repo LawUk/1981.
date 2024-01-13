@@ -7,11 +7,9 @@
 const navbar = document.querySelector("[data-navbar]");
 const navToggler = document.querySelector("[data-nav-toggler]");
 
-const toggleNavbar = () => {
+navToggler.addEventListener("click", () => {
   navbar.classList.toggle("active");
-};
-
-navToggler.addEventListener("click", toggleNavbar);
+});
 
 /**
  * Header Active
@@ -19,9 +17,6 @@ navToggler.addEventListener("click", toggleNavbar);
 
 const header = document.querySelector("[data-header]");
 
-const handleScroll = () => {
-  const shouldAddClass = window.scrollY > 50;
-  header.classList.toggle("active", shouldAddClass);
-};
-
-window.addEventListener("scroll", handleScroll);
+window.addEventListener("scroll", () => {
+  header.classList.toggle("active", window.scrollY > 50);
+});
