@@ -2,17 +2,14 @@
   #font.css
 \*-----------------------------------*/
 
-/* Copyright 2024 You */
+/**
+ * Copyright 2024 You
+ */
 
-:root {
-  --font-path: '../fonts/';
-}
-
-/* Definición de la fuente ClashDisplay */
 @font-face {
   font-family: 'ClashDisplay';
   font-style: normal;
   font-weight: 600;
-  src: url(var(--font-path)ClashDisplay-Semibold.woff2) format('woff2');
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2');
   font-display: swap;
 }
