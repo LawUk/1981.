@@ -9,54 +9,73 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
+  /**
+   * COLORS
+   */
 
-:root {
-  /* Colors */
+  /* backgorund color */
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-gainsboro: hsla(154, 10%, 86%, 1);
   --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
 
+  /* text color */
   --text-orange-crayola: hsla(18, 97%, 62%, 1);
   --text-blue-crayola: hsla(216, 98%, 52%, 1);
   --text-eerie-black: hsla(210, 11%, 15%, 1);
   --text-eerie-black-2: hsla(0, 0%, 7%, 1);
   --text-black: hsla(270, 100%, 0%, 1);
 
+  /* border color */
   --border-eerie-black: hsla(0, 0%, 7%, 1);
 
-  /* Typography */
-  --font-family-inter: 'Inter', sans-serif;
-  --font-family-clash-display: 'ClashDisplay', cursive;
+  /**
+   * TYPOGRAPHY
+   */
 
-  --font-size-1: 6.2rem;
-  --font-size-2: 4.4rem;
-  --font-size-3: 3.8rem;
-  --font-size-4: 3.4rem;
-  --font-size-5: 3rem;
-  --font-size-6: 2.5rem;
-  --font-size-7: 2rem;
-  --font-size-8: 1.8rem;
-  --font-size-9: 1.4rem;
-  --font-size-10: 2.4rem;
-  --font-size-11: 1.2rem;
+  /* font family */
+  --fontFamily-inter: 'Inter', sans-serif;
+  --fontFamily-clashDisplay: 'ClashDisplay', cursive;
 
-  --weight-semi-bold: 600;
+  /* font size */
+  --fontSize-1: 6.2rem;
+  --fontSize-2: 4.4rem;
+  --fontSize-3: 3.8rem;
+  --fontSize-4: 3.4rem;
+  --fontSize-5: 3rem;
+  --fontSize-6: 2.5rem;
+  --fontSize-7: 2rem;
+  --fontSize-8: 1.8rem;
+  --fontSize-9: 1.4rem;
+  --fontSize-10: 2.4rem;
+  --fontSize-11: 1.2rem;
 
-  /* Box Shadow */
+  /* font weight */
+  --weight-semiBold: 600;
+
+  /**
+   * BOX SHADOW
+   */
+
   --shadow-1: 0 4px 6px hsla(256, 100%, 9%, 0.1);
   --shadow-2: 4px 4px 0px hsla(0, 0%, 7%, 1);
   --shadow-3: 2px 2px 0px hsla(0, 0%, 7%, 1);
 
-  /* Border Radius */
+  /**
+   * BORDER RADIUS
+   */
+
   --radius-circle: 50%;
 
-  /* Transition */
+  /**
+   * TRANSITION
+   */
+
   --transition-1: 250ms ease;
   --transition-2: 500ms ease;
-}
 
+}
 
 /*-----------------------------------*\
   #RESET
